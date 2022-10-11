@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color:  rgba(255,255,255, .98);
+    border-top: 2px solid #eee;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7rem;
+}
+
+.footer .col {
+    margin: auto;
+}
+
+.footer h3 {
+    margin: .8rem 0;
+    color: rgb(210, 31, 186)
+}
+
+.footer p {
+    margin: .6rem 0;
+}
+
+.footer .social-media-icon {
+    text-align: center;
+}
+
+.footer .icon {
+    font-size: 1.3rem;
+    margin: 2rem 3rem;
+    color: rgb(210, 31, 186);
+}
+
+@media screen and (max-width: 940px) {
+    .footer .container{
+        grid-template-columns: repeat(1,3fr);
+        gap: .9rem;
+    }
+    
+    .footer .icon {
+        margin: 1.5rem;
+    }
+}
