@@ -17,7 +17,7 @@
 
 .footer h3 {
     margin: .8rem 0;
-    color: rgb(210, 31, 186)
+    color: rgb(210, 31, 186);
 }
 
 .footer p {
@@ -32,6 +32,11 @@
     font-size: 1.3rem;
     margin: 2rem 3rem;
     color: rgb(210, 31, 186);
+}
+
+.contact-icon {
+    color:rgb(210, 31, 186);
+    margin-right: 17px;
 }
 
 @media screen and (max-width: 940px) {

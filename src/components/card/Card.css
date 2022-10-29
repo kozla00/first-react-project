@@ -1,0 +1,86 @@
+.pricing {
+    width: 100%;
+    padding: 7rem 1rem;
+    background-color: rgb(255, 254, 254);
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+    border: 3px solid rgb(243, 103, 175);
+    border-radius: 15px;
+    color: black;
+}
+
+.recommend {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {color: rgb(0, 0, 0);}
+    to {color: rgb(247, 46, 163);}
+  }
+
+.img {
+    width: 80%;
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer; 
+    transition: 0.4s;
+    animation: ease-in;
+}
+
+.card:hover {
+    background-color: rgba(216, 132, 201, 0.511);
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card .bar {
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.card .btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.pricing p {
+    color: black;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.card .btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 980px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

@@ -9,14 +9,14 @@ const Main = () => {
         <div className="content">
             <h1>Find the best gaming setup for you</h1>          
             <p className="search-text">Search and buy your gaming computer, on the best online platform.</p>
-                <form className="search">
+                <div className="search">
                     <div>
                         <input type="text" placeholder="Search for your gaming PC..." />
                     </div>
                     <div className="search">
                         <button type="submit"><BiSearchAlt /></button>
                     </div>
-                </form>
+                </div>
         </div>
     </div>
   )

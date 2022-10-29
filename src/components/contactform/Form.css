@@ -1,0 +1,26 @@
+label {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+    padding: 5%;
+}
+
+form label {
+    margin-bottom: .5rem;
+}
+
+form input, textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(252, 11, 156, 0.1);
+    border-color: rgba(18, 0, 0, 0.1);
+    color: black;
+}
